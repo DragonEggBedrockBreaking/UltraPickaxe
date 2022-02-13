@@ -46,7 +46,7 @@ public class Buildscript extends FabricProject {
         // Fabric API
         d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-lifecycle-events-v1", "1.4.13+713c266865"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
         d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-resource-loader-v0", "0.4.14+713c266865"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
-            d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-api-base", "0.4.2+d7c144a8f4"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
+        d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-api-base", "0.4.2+d7c144a8f4"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
         // DataBreaker
         d.addMaven("https://maven.gegy.dev/", new MavenId("supercoder79:databreaker:0.2.8"), ModDependencyFlag.RUNTIME);
         // Tiefix
