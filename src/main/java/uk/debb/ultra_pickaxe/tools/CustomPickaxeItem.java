@@ -1,6 +1,5 @@
 package uk.debb.ultra_pickaxe.tools;
 
-import net.minecraft.item.Item.Settings;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 
