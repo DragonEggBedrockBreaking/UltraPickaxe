@@ -4,7 +4,9 @@
 
 This mod adds a tool called the "Ultra Pickaxe". This pickaxe can break barrier blocks,
 bedrock, and end portal frames. It is very slow at mining, very difficult to craft, and
-can only be used once.
+can only be used once. To craft this item, put three netherite blocks on the top row of
+the crafting table, one piece of gilded blackstone in the centre, one crying obsidian
+either side of it, and a stick in the middle of the bottom row.
 
 ## Downloads
 
