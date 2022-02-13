@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8.5",
+    "package": "uk.debb.ultra_pickaxe.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+      "MixinAbstractBlock",
+      "MixinServerPlayerInteractionManager"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }

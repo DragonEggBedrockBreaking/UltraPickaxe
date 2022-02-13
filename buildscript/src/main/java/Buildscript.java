@@ -44,11 +44,9 @@ public class Buildscript extends FabricProject {
     @Override
     public void getModDependencies(ModDependencyCollector d) {
         // Fabric API
+        d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-lifecycle-events-v1", "1.4.13+713c266865"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
         d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-resource-loader-v0", "0.4.14+713c266865"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
-        d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-item-api-v1", "1.3.2+691a79b5bc"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
-        d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-mining-level-api-v1", "1.0.6+d7c144a8f4"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
-        d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-tag-extensions-v0", "1.2.8+d7c144a8f4"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
-        d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-api-base", "0.4.3+d7c144a8bc"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
+            d.addMaven(FabricMaven.URL, new MavenId(FabricMaven.GROUP_ID + ".fabric-api", "fabric-api-base", "0.4.2+d7c144a8f4"), ModDependencyFlag.RUNTIME, ModDependencyFlag.COMPILE);
         // DataBreaker
         d.addMaven("https://maven.gegy.dev/", new MavenId("supercoder79:databreaker:0.2.8"), ModDependencyFlag.RUNTIME);
         // Tiefix

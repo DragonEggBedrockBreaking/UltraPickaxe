@@ -23,14 +23,14 @@
       "uk.debb.ultra_pickaxe.UltraPickaxe"
     ]
   },
-  "mixins": [],
+  "mixins": [
+    "ultra_pickaxe.mixins.json"
+  ],
 
   "depends": {
     "fabricloader": "*",
+    "fabric-lifecycle-events-v1": "*",
     "fabric-resource-loader-v0": "*",
-    "fabric-item-api-v1": "*",
-    "fabric-mining-level-api-v1": "*",
-    "fabric-tag-extensions-v0": "*",
     "fabric-api-base": "*",
     "minecraft": "1.18.x",
     "java": ">=17"

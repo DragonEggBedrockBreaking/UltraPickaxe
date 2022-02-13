@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "#L#",
+        " I "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:netherite_block"
+        },
+        "#": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "L": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "ultra_pickaxe:ultra_pickaxe"
+    }
+}
