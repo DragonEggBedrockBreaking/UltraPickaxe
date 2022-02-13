@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "ultra_pickaxe",
+  "version": "{dev-env}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Ultra Pickaxe",
+  "description": "Adds a pickaxe that can mine more blocks",
   "authors": [
-    "Me!"
+    "DragonEggBedrockBreaking"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/DragonEggBedrockBreaking/UltraPickaxe",
+    "sources": "https://github.com/DragonEggBedrockBreaking/UltraPickaxe",
+    "issues": "https://github.com/DragonEggBedrockBreaking/UltraPickaxe/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MPLv2",
+  "icon": "assets/ultra_pickaxe/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "uk.debb.ultra_pickaxe.UltraPickaxe"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": [],
 
   "depends": {
-    "fabricloader": ">=0.12.12",
-    "fabric": "*",
+    "fabricloader": "*",
+    "fabric-resource-loader-v0": "*",
+    "fabric-item-api-v1": "*",
+    "fabric-mining-level-api-v1": "*",
+    "fabric-tag-extensions-v0": "*",
+    "fabric-api-base": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
