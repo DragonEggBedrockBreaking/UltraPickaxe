@@ -15,7 +15,7 @@ public class UltraPickaxeMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 100.0f;
+        return 0.8f;
     }
 
     @Override
