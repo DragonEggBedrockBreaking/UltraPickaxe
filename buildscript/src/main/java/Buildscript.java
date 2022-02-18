@@ -4,7 +4,6 @@ import io.github.coolcrabs.brachyura.decompiler.fernflower.FernflowerDecompiler;
 import io.github.coolcrabs.brachyura.fabric.FabricLoader;
 import io.github.coolcrabs.brachyura.fabric.FabricMaven;
 import io.github.coolcrabs.brachyura.fabric.FabricProject;
-import io.github.coolcrabs.brachyura.fabric.Yarn;
 import io.github.coolcrabs.brachyura.maven.Maven;
 import io.github.coolcrabs.brachyura.maven.MavenId;
 import io.github.coolcrabs.brachyura.processing.ProcessorChain;
@@ -19,8 +18,8 @@ public class Buildscript extends FabricProject {
 
     @Override
     public MappingTree createMappings() {
-        // Yarn Mappings Version
-        return Yarn.ofMaven(FabricMaven.URL, FabricMaven.yarn("1.18.1+build.22")).tree;
+        // Use Mojang Official Mappings
+        return createMojmap();
     }
 
     @Override

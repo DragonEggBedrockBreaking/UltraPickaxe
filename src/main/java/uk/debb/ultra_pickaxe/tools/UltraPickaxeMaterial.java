@@ -1,35 +1,35 @@
 package uk.debb.ultra_pickaxe.tools;
 
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.recipe.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
 
-public class UltraPickaxeMaterial implements ToolMaterial {
+public class UltraPickaxeMaterial implements Tier {
     public static final UltraPickaxeMaterial INSTANCE = new UltraPickaxeMaterial();
 
     private UltraPickaxeMaterial() {}
 
     @Override
-    public int getDurability() {
+    public int getUses() {
         return 1;
     }
 
     @Override
-    public float getMiningSpeedMultiplier() {
+    public float getSpeed() {
         return 0.8f;
     }
 
     @Override
-    public float getAttackDamage() {
+    public float getAttackDamageBonus() {
         return 6;
     }
 
     @Override
-    public int getMiningLevel() {
+    public int getLevel() {
         return Integer.MAX_VALUE;
     }
 
     @Override
-    public int getEnchantability() {
+    public int getEnchantmentValue() {
         return 0;
     }
 
