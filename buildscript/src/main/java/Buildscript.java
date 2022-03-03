@@ -15,7 +15,7 @@ public class Buildscript extends FabricProject {
     @Override
     public VersionMeta createMcVersion() {
         // Minecraft Version
-        return Minecraft.getVersion("1.18.1");
+        return Minecraft.getVersion("1.18.2");
     }
 
     @Override
